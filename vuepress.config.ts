@@ -37,7 +37,7 @@ export default defineUserConfig({
     user: "chen-yiyun",
     repository: "SingleFile-Archives",
     rootPath: "/",
-    authorizationToken: "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",
+    authorizationToken: "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",
     ref: "main",
     maxDeep: 10,
     hideReadme: true
