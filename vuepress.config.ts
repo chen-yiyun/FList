@@ -36,9 +36,9 @@ export default defineUserConfig({
   analysis: githubReposAnalysis({
     user: "chen-yiyun",
     repository: "SingleFile-Archives",
-    rootPath: /,
-    authorizationToken: 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,
-    ref: main,
+    rootPath: "/",
+    authorizationToken: "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",
+    ref: "main",
     maxDeep: 10,
     hideReadme: true
   }),
