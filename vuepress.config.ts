@@ -41,7 +41,8 @@ export default defineUserConfig({
     ref: "main",
     maxDeep: 10,
     hideReadme: true
-  })
+  }),
+  }
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
 })
