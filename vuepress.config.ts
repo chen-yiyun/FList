@@ -36,11 +36,11 @@ export default defineUserConfig({
   analysis: githubReposAnalysis({
     user: "chen-yiyun",
     repository: "SingleFile-Archives",
-    rootPath: /, //根路径,挂载仓库的路径
-    authorizationToken: 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, //github token
-    ref: main, //github分支
-    maxDeep: 10, //最大深度,默认10
-    hideReadme: true, //隐藏README.MD文件
+    rootPath: /,
+    authorizationToken: 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,
+    ref: main,
+    maxDeep: 10,
+    hideReadme: true
   }),
 }
 
