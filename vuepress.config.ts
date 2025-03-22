@@ -32,17 +32,17 @@ export default defineUserConfig({
   // 主题配置 FileList 是 vuepress 的一个主题，文件展示的功能全部由这个主题提供。
   theme: FileList([
   {
-  mountPath: "/SingleFile-Archives",
-  analysis: githubReposAnalysis({
-    user: "chen-yiyun",
-    repository: "SingleFile-Archives",
-    rootPath: "/",
-    ref: "main",
-    maxDeep: 10,
-    hideReadme: true
-  }),
-  downProxy:cloudflarePagesDownProxy(),
-  }
+  // mountPath: "/SingleFile-Archives",
+  // analysis: githubReposAnalysis({
+  //   user: "chen-yiyun",
+  //   repository: "SingleFile-Archives",
+  //   rootPath: "/",
+  //   ref: "main",
+  //   maxDeep: 10,
+  //   hideReadme: true
+  // }),
+  // downProxy:cloudflarePagesDownProxy(),
+  // }
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
 })
