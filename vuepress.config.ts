@@ -41,6 +41,7 @@ export default defineUserConfig({
     maxDeep: 10,
     hideReadme: true
   }),
+  downProxy:cloudflarePagesDownProxy(),
   }
     // ... 可以配置多个挂载路径和仓库，以此类推
   ])
